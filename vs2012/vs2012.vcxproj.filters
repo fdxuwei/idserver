@@ -1,0 +1,1401 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include=".git">
+      <UniqueIdentifier>{67509970-140B-11E6-B7F6-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="api">
+      <UniqueIdentifier>{67509971-140B-11E6-9289-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cppmysql">
+      <UniqueIdentifier>{67509972-140B-11E6-AB12-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="server">
+      <UniqueIdentifier>{67509973-140B-11E6-953A-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party">
+      <UniqueIdentifier>{67509974-140B-11E6-9207-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include=".git\hooks">
+      <UniqueIdentifier>{6750C080-140B-11E6-BCCB-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include=".git\info">
+      <UniqueIdentifier>{6750C081-140B-11E6-ACF8-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include=".git\logs">
+      <UniqueIdentifier>{6750C082-140B-11E6-B4D9-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include=".git\modules">
+      <UniqueIdentifier>{6750C083-140B-11E6-9C0A-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include=".git\objects">
+      <UniqueIdentifier>{6750C084-140B-11E6-A324-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include=".git\refs">
+      <UniqueIdentifier>{6750C085-140B-11E6-ACE7-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include=".git\logs\refs">
+      <UniqueIdentifier>{6750E791-140B-11E6-AF23-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include=".git\logs\refs\heads">
+      <UniqueIdentifier>{6750E792-140B-11E6-A70C-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include=".git\logs\refs\remotes">
+      <UniqueIdentifier>{6750E793-140B-11E6-A300-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include=".git\logs\refs\remotes\origin">
+      <UniqueIdentifier>{67510EA1-140B-11E6-93ED-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include=".git\modules\third_party">
+      <UniqueIdentifier>{67510EA2-140B-11E6-8064-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include=".git\modules\third_party\muduo">
+      <UniqueIdentifier>{67510EA3-140B-11E6-9211-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include=".git\modules\third_party\muduo\hooks">
+      <UniqueIdentifier>{67510EA4-140B-11E6-86EA-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include=".git\modules\third_party\muduo\info">
+      <UniqueIdentifier>{675135AE-140B-11E6-B2BC-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include=".git\modules\third_party\muduo\logs">
+      <UniqueIdentifier>{675135AF-140B-11E6-AC7C-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include=".git\modules\third_party\muduo\objects">
+      <UniqueIdentifier>{675135B0-140B-11E6-8285-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include=".git\modules\third_party\muduo\refs">
+      <UniqueIdentifier>{675135B1-140B-11E6-9C85-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include=".git\modules\third_party\muduo\logs\refs">
+      <UniqueIdentifier>{675135B2-140B-11E6-86F5-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include=".git\modules\third_party\muduo\logs\refs\heads">
+      <UniqueIdentifier>{67515CC0-140B-11E6-B686-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include=".git\modules\third_party\muduo\logs\refs\remotes">
+      <UniqueIdentifier>{67515CC1-140B-11E6-9EE6-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include=".git\modules\third_party\muduo\logs\refs\remotes\origin">
+      <UniqueIdentifier>{67515CC2-140B-11E6-A1B4-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include=".git\modules\third_party\muduo\objects\info">
+      <UniqueIdentifier>{67515CC3-140B-11E6-8C4E-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include=".git\modules\third_party\muduo\objects\pack">
+      <UniqueIdentifier>{67515CC4-140B-11E6-B691-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include=".git\modules\third_party\muduo\refs\heads">
+      <UniqueIdentifier>{675183CF-140B-11E6-8650-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include=".git\modules\third_party\muduo\refs\remotes">
+      <UniqueIdentifier>{675183D0-140B-11E6-94E0-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include=".git\modules\third_party\muduo\refs\tags">
+      <UniqueIdentifier>{675183D1-140B-11E6-B895-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include=".git\modules\third_party\muduo\refs\remotes\origin">
+      <UniqueIdentifier>{675183D2-140B-11E6-9152-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include=".git\objects\2d">
+      <UniqueIdentifier>{6751AADE-140B-11E6-B745-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include=".git\objects\30">
+      <UniqueIdentifier>{6751AADF-140B-11E6-B401-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include=".git\objects\37">
+      <UniqueIdentifier>{6751AAE0-140B-11E6-8819-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include=".git\objects\39">
+      <UniqueIdentifier>{6751AAE1-140B-11E6-8B0C-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include=".git\objects\e1">
+      <UniqueIdentifier>{6751AAE2-140B-11E6-BE85-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include=".git\objects\info">
+      <UniqueIdentifier>{6751AAE3-140B-11E6-8BF2-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include=".git\objects\pack">
+      <UniqueIdentifier>{6751AAE4-140B-11E6-B8BF-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include=".git\refs\heads">
+      <UniqueIdentifier>{6751D1EE-140B-11E6-BF51-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include=".git\refs\remotes">
+      <UniqueIdentifier>{6751D1EF-140B-11E6-9DEB-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include=".git\refs\tags">
+      <UniqueIdentifier>{6751D1F0-140B-11E6-91E7-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include=".git\refs\remotes\origin">
+      <UniqueIdentifier>{6751D1F1-140B-11E6-AFA8-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="api\c++">
+      <UniqueIdentifier>{6751D1F2-140B-11E6-9DC4-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\muduo">
+      <UniqueIdentifier>{6752200F-140B-11E6-923A-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\muduo\contrib">
+      <UniqueIdentifier>{6752471E-140B-11E6-A121-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\muduo\examples">
+      <UniqueIdentifier>{6752471F-140B-11E6-9B6A-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\muduo\muduo">
+      <UniqueIdentifier>{67524720-140B-11E6-BD30-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\muduo\contrib\hiredis">
+      <UniqueIdentifier>{67524721-140B-11E6-82F8-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\muduo\contrib\thrift">
+      <UniqueIdentifier>{67524722-140B-11E6-ACA5-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\muduo\contrib\thrift\tests">
+      <UniqueIdentifier>{67526E30-140B-11E6-858C-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\muduo\contrib\thrift\tests\echo">
+      <UniqueIdentifier>{67526E31-140B-11E6-8B23-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\muduo\contrib\thrift\tests\ping">
+      <UniqueIdentifier>{67526E32-140B-11E6-B4C4-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\muduo\examples\ace">
+      <UniqueIdentifier>{67529540-140B-11E6-83DC-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\muduo\examples\asio">
+      <UniqueIdentifier>{67529541-140B-11E6-B6D1-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\muduo\examples\cdns">
+      <UniqueIdentifier>{67529542-140B-11E6-A843-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\muduo\examples\curl">
+      <UniqueIdentifier>{67529543-140B-11E6-8369-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\muduo\examples\fastcgi">
+      <UniqueIdentifier>{67529544-140B-11E6-959C-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\muduo\examples\filetransfer">
+      <UniqueIdentifier>{67529545-140B-11E6-BD02-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\muduo\examples\hub">
+      <UniqueIdentifier>{67529546-140B-11E6-BA6C-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\muduo\examples\idleconnection">
+      <UniqueIdentifier>{67529547-140B-11E6-8D23-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\muduo\examples\maxconnection">
+      <UniqueIdentifier>{67529548-140B-11E6-87D4-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\muduo\examples\memcached">
+      <UniqueIdentifier>{67529549-140B-11E6-894D-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\muduo\examples\multiplexer">
+      <UniqueIdentifier>{6752954A-140B-11E6-A2C4-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\muduo\examples\netty">
+      <UniqueIdentifier>{6752954B-140B-11E6-9E4C-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\muduo\examples\pingpong">
+      <UniqueIdentifier>{6752954C-140B-11E6-A210-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\muduo\examples\procmon">
+      <UniqueIdentifier>{6752954D-140B-11E6-950E-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\muduo\examples\protobuf">
+      <UniqueIdentifier>{6752954E-140B-11E6-8A1E-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\muduo\examples\roundtrip">
+      <UniqueIdentifier>{6752954F-140B-11E6-BB70-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\muduo\examples\shorturl">
+      <UniqueIdentifier>{67529550-140B-11E6-A424-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\muduo\examples\simple">
+      <UniqueIdentifier>{67529551-140B-11E6-A63A-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\muduo\examples\socks4a">
+      <UniqueIdentifier>{67529552-140B-11E6-82B5-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\muduo\examples\sudoku">
+      <UniqueIdentifier>{67529553-140B-11E6-8BFB-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\muduo\examples\twisted">
+      <UniqueIdentifier>{67529554-140B-11E6-815C-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\muduo\examples\wordcount">
+      <UniqueIdentifier>{67529555-140B-11E6-A24A-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\muduo\examples\zeromq">
+      <UniqueIdentifier>{67529556-140B-11E6-B9D7-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\muduo\examples\ace\logging">
+      <UniqueIdentifier>{67529557-140B-11E6-BEDA-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\muduo\examples\ace\ttcp">
+      <UniqueIdentifier>{67529558-140B-11E6-A7C4-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\muduo\examples\asio\chat">
+      <UniqueIdentifier>{6752BC4F-140B-11E6-BC58-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\muduo\examples\asio\tutorial">
+      <UniqueIdentifier>{6752BC50-140B-11E6-A94D-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\muduo\examples\asio\tutorial\timer2">
+      <UniqueIdentifier>{6752E361-140B-11E6-9F9B-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\muduo\examples\asio\tutorial\timer3">
+      <UniqueIdentifier>{6752E362-140B-11E6-95E2-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\muduo\examples\asio\tutorial\timer4">
+      <UniqueIdentifier>{6752E363-140B-11E6-B829-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\muduo\examples\asio\tutorial\timer5">
+      <UniqueIdentifier>{6752E364-140B-11E6-BA2C-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\muduo\examples\asio\tutorial\timer6">
+      <UniqueIdentifier>{6752E365-140B-11E6-9358-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\muduo\examples\filetransfer\loadtest">
+      <UniqueIdentifier>{67530A70-140B-11E6-8C81-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\muduo\examples\memcached\client">
+      <UniqueIdentifier>{67533180-140B-11E6-B11A-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\muduo\examples\memcached\server">
+      <UniqueIdentifier>{67533181-140B-11E6-99CB-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\muduo\examples\multiplexer\harness">
+      <UniqueIdentifier>{67535891-140B-11E6-A565-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\muduo\examples\multiplexer\harness\src">
+      <UniqueIdentifier>{67535892-140B-11E6-A860-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\muduo\examples\multiplexer\harness\src\com">
+      <UniqueIdentifier>{67535893-140B-11E6-BBBC-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\muduo\examples\multiplexer\harness\src\com\chenshuo">
+      <UniqueIdentifier>{67535894-140B-11E6-8CCB-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\muduo\examples\multiplexer\harness\src\com\chenshuo\muduo">
+      <UniqueIdentifier>{67535895-140B-11E6-8946-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\muduo\examples\multiplexer\harness\src\com\chenshuo\muduo\example">
+      <UniqueIdentifier>{67537FA1-140B-11E6-AE4D-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\muduo\examples\multiplexer\harness\src\com\chenshuo\muduo\example\multiplexer">
+      <UniqueIdentifier>{67537FA2-140B-11E6-B5AC-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\muduo\examples\multiplexer\harness\src\com\chenshuo\muduo\example\multiplexer\testcase">
+      <UniqueIdentifier>{67537FA3-140B-11E6-AFD4-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\muduo\examples\netty\discard">
+      <UniqueIdentifier>{67537FA4-140B-11E6-9F71-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\muduo\examples\netty\echo">
+      <UniqueIdentifier>{67537FA5-140B-11E6-91F7-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\muduo\examples\netty\uptime">
+      <UniqueIdentifier>{67537FA6-140B-11E6-9AEE-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\muduo\examples\protobuf\codec">
+      <UniqueIdentifier>{6753CDC0-140B-11E6-A216-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\muduo\examples\protobuf\resolver">
+      <UniqueIdentifier>{6753CDC1-140B-11E6-A3C5-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\muduo\examples\protobuf\rpc">
+      <UniqueIdentifier>{6753CDC2-140B-11E6-8981-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\muduo\examples\protobuf\rpcbalancer">
+      <UniqueIdentifier>{6753CDC3-140B-11E6-BC01-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\muduo\examples\protobuf\rpcbench">
+      <UniqueIdentifier>{6753CDC4-140B-11E6-8DFF-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\muduo\examples\simple\allinone">
+      <UniqueIdentifier>{6753F4CF-140B-11E6-A22A-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\muduo\examples\simple\chargen">
+      <UniqueIdentifier>{6753F4D0-140B-11E6-B1FA-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\muduo\examples\simple\chargenclient">
+      <UniqueIdentifier>{6753F4D1-140B-11E6-AE2F-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\muduo\examples\simple\daytime">
+      <UniqueIdentifier>{67541BDE-140B-11E6-B40B-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\muduo\examples\simple\discard">
+      <UniqueIdentifier>{67541BDF-140B-11E6-B893-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\muduo\examples\simple\echo">
+      <UniqueIdentifier>{67541BE0-140B-11E6-9D4F-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\muduo\examples\simple\time">
+      <UniqueIdentifier>{67541BE1-140B-11E6-A144-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\muduo\examples\simple\timeclient">
+      <UniqueIdentifier>{67541BE2-140B-11E6-AF08-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\muduo\examples\twisted\finger">
+      <UniqueIdentifier>{675442EE-140B-11E6-85A0-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\muduo\muduo\base">
+      <UniqueIdentifier>{67546A00-140B-11E6-99A2-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\muduo\muduo\net">
+      <UniqueIdentifier>{67546A01-140B-11E6-A0A8-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\muduo\muduo\base\tests">
+      <UniqueIdentifier>{6754B81E-140B-11E6-B8C2-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\muduo\muduo\net\http">
+      <UniqueIdentifier>{67550640-140B-11E6-8740-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\muduo\muduo\net\inspect">
+      <UniqueIdentifier>{67550641-140B-11E6-86C6-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\muduo\muduo\net\poller">
+      <UniqueIdentifier>{67550642-140B-11E6-80F1-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\muduo\muduo\net\protobuf">
+      <UniqueIdentifier>{67550643-140B-11E6-9A52-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\muduo\muduo\net\protorpc">
+      <UniqueIdentifier>{67550644-140B-11E6-9452-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\muduo\muduo\net\tests">
+      <UniqueIdentifier>{67550645-140B-11E6-A4CD-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\muduo\muduo\net\http\tests">
+      <UniqueIdentifier>{67552D4F-140B-11E6-81FD-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third_party\muduo\muduo\net\inspect\tests">
+      <UniqueIdentifier>{67552D50-140B-11E6-974E-C0A71CF28543}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\cppmysql\Connection.h">
+      <Filter>cppmysql</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cppmysql\ConnectionPool.h">
+      <Filter>cppmysql</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cppmysql\ConnectionPoolMgr.h">
+      <Filter>cppmysql</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cppmysql\ConnectionPool_unused.h">
+      <Filter>cppmysql</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cppmysql\ConnectionPtr.h">
+      <Filter>cppmysql</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cppmysql\Error.h">
+      <Filter>cppmysql</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cppmysql\Fields.h">
+      <Filter>cppmysql</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cppmysql\ResultSet.h">
+      <Filter>cppmysql</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cppmysql\Server.h">
+      <Filter>cppmysql</Filter>
+    </ClInclude>
+    <ClInclude Include="..\server\Config.h">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\server\IdCache.h">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\server\IdServer.h">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\contrib\hiredis\Hiredis.h">
+      <Filter>third_party\muduo\contrib\hiredis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\contrib\thrift\ThriftConnection.h">
+      <Filter>third_party\muduo\contrib\thrift</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\contrib\thrift\ThriftServer.h">
+      <Filter>third_party\muduo\contrib\thrift</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\examples\ace\ttcp\common.h">
+      <Filter>third_party\muduo\examples\ace\ttcp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\examples\asio\chat\codec.h">
+      <Filter>third_party\muduo\examples\asio\chat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\examples\cdns\Resolver.h">
+      <Filter>third_party\muduo\examples\cdns</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\examples\curl\Curl.h">
+      <Filter>third_party\muduo\examples\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\examples\fastcgi\fastcgi.h">
+      <Filter>third_party\muduo\examples\fastcgi</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\examples\hub\codec.h">
+      <Filter>third_party\muduo\examples\hub</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\examples\hub\pubsub.h">
+      <Filter>third_party\muduo\examples\hub</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\examples\idleconnection\echo.h">
+      <Filter>third_party\muduo\examples\idleconnection</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\examples\maxconnection\echo.h">
+      <Filter>third_party\muduo\examples\maxconnection</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\examples\memcached\server\Item.h">
+      <Filter>third_party\muduo\examples\memcached\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\examples\memcached\server\MemcacheServer.h">
+      <Filter>third_party\muduo\examples\memcached\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\examples\memcached\server\Session.h">
+      <Filter>third_party\muduo\examples\memcached\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\examples\procmon\plot.h">
+      <Filter>third_party\muduo\examples\procmon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\examples\protobuf\codec\codec.h">
+      <Filter>third_party\muduo\examples\protobuf\codec</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\examples\protobuf\codec\dispatcher.h">
+      <Filter>third_party\muduo\examples\protobuf\codec</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\examples\protobuf\codec\dispatcher_lite.h">
+      <Filter>third_party\muduo\examples\protobuf\codec</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\examples\simple\chargen\chargen.h">
+      <Filter>third_party\muduo\examples\simple\chargen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\examples\simple\daytime\daytime.h">
+      <Filter>third_party\muduo\examples\simple\daytime</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\examples\simple\discard\discard.h">
+      <Filter>third_party\muduo\examples\simple\discard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\examples\simple\echo\echo.h">
+      <Filter>third_party\muduo\examples\simple\echo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\examples\simple\time\time.h">
+      <Filter>third_party\muduo\examples\simple\time</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\examples\socks4a\tunnel.h">
+      <Filter>third_party\muduo\examples\socks4a</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\examples\sudoku\percentile.h">
+      <Filter>third_party\muduo\examples\sudoku</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\examples\sudoku\stat.h">
+      <Filter>third_party\muduo\examples\sudoku</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\examples\sudoku\sudoku.h">
+      <Filter>third_party\muduo\examples\sudoku</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\examples\wordcount\hash.h">
+      <Filter>third_party\muduo\examples\wordcount</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\muduo\base\AsyncLogging.h">
+      <Filter>third_party\muduo\muduo\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\muduo\base\Atomic.h">
+      <Filter>third_party\muduo\muduo\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\muduo\base\BlockingQueue.h">
+      <Filter>third_party\muduo\muduo\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\muduo\base\BoundedBlockingQueue.h">
+      <Filter>third_party\muduo\muduo\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\muduo\base\Condition.h">
+      <Filter>third_party\muduo\muduo\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\muduo\base\copyable.h">
+      <Filter>third_party\muduo\muduo\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\muduo\base\CountDownLatch.h">
+      <Filter>third_party\muduo\muduo\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\muduo\base\CurrentThread.h">
+      <Filter>third_party\muduo\muduo\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\muduo\base\Date.h">
+      <Filter>third_party\muduo\muduo\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\muduo\base\Exception.h">
+      <Filter>third_party\muduo\muduo\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\muduo\base\FileUtil.h">
+      <Filter>third_party\muduo\muduo\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\muduo\base\GzipFile.h">
+      <Filter>third_party\muduo\muduo\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\muduo\base\LogFile.h">
+      <Filter>third_party\muduo\muduo\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\muduo\base\Logging.h">
+      <Filter>third_party\muduo\muduo\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\muduo\base\LogStream.h">
+      <Filter>third_party\muduo\muduo\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\muduo\base\Mutex.h">
+      <Filter>third_party\muduo\muduo\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\muduo\base\ProcessInfo.h">
+      <Filter>third_party\muduo\muduo\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\muduo\base\Singleton.h">
+      <Filter>third_party\muduo\muduo\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\muduo\base\StringPiece.h">
+      <Filter>third_party\muduo\muduo\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\muduo\base\Thread.h">
+      <Filter>third_party\muduo\muduo\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\muduo\base\ThreadLocal.h">
+      <Filter>third_party\muduo\muduo\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\muduo\base\ThreadLocalSingleton.h">
+      <Filter>third_party\muduo\muduo\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\muduo\base\ThreadPool.h">
+      <Filter>third_party\muduo\muduo\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\muduo\base\Timestamp.h">
+      <Filter>third_party\muduo\muduo\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\muduo\base\TimeZone.h">
+      <Filter>third_party\muduo\muduo\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\muduo\base\Types.h">
+      <Filter>third_party\muduo\muduo\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\muduo\base\WeakCallback.h">
+      <Filter>third_party\muduo\muduo\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\muduo\net\Acceptor.h">
+      <Filter>third_party\muduo\muduo\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\muduo\net\boilerplate.h">
+      <Filter>third_party\muduo\muduo\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\muduo\net\Buffer.h">
+      <Filter>third_party\muduo\muduo\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\muduo\net\Callbacks.h">
+      <Filter>third_party\muduo\muduo\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\muduo\net\Channel.h">
+      <Filter>third_party\muduo\muduo\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\muduo\net\Connector.h">
+      <Filter>third_party\muduo\muduo\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\muduo\net\Endian.h">
+      <Filter>third_party\muduo\muduo\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\muduo\net\EventLoop.h">
+      <Filter>third_party\muduo\muduo\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\muduo\net\EventLoopThread.h">
+      <Filter>third_party\muduo\muduo\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\muduo\net\EventLoopThreadPool.h">
+      <Filter>third_party\muduo\muduo\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\muduo\net\InetAddress.h">
+      <Filter>third_party\muduo\muduo\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\muduo\net\Poller.h">
+      <Filter>third_party\muduo\muduo\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\muduo\net\Socket.h">
+      <Filter>third_party\muduo\muduo\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\muduo\net\SocketsOps.h">
+      <Filter>third_party\muduo\muduo\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\muduo\net\TcpClient.h">
+      <Filter>third_party\muduo\muduo\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\muduo\net\TcpConnection.h">
+      <Filter>third_party\muduo\muduo\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\muduo\net\TcpServer.h">
+      <Filter>third_party\muduo\muduo\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\muduo\net\Timer.h">
+      <Filter>third_party\muduo\muduo\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\muduo\net\TimerId.h">
+      <Filter>third_party\muduo\muduo\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\muduo\net\TimerQueue.h">
+      <Filter>third_party\muduo\muduo\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\muduo\net\ZlibStream.h">
+      <Filter>third_party\muduo\muduo\net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\muduo\net\http\HttpContext.h">
+      <Filter>third_party\muduo\muduo\net\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\muduo\net\http\HttpRequest.h">
+      <Filter>third_party\muduo\muduo\net\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\muduo\net\http\HttpResponse.h">
+      <Filter>third_party\muduo\muduo\net\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\muduo\net\http\HttpServer.h">
+      <Filter>third_party\muduo\muduo\net\http</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\muduo\net\inspect\Inspector.h">
+      <Filter>third_party\muduo\muduo\net\inspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\muduo\net\inspect\PerformanceInspector.h">
+      <Filter>third_party\muduo\muduo\net\inspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\muduo\net\inspect\ProcessInspector.h">
+      <Filter>third_party\muduo\muduo\net\inspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\muduo\net\inspect\SystemInspector.h">
+      <Filter>third_party\muduo\muduo\net\inspect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\muduo\net\poller\EPollPoller.h">
+      <Filter>third_party\muduo\muduo\net\poller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\muduo\net\poller\PollPoller.h">
+      <Filter>third_party\muduo\muduo\net\poller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\muduo\net\protobuf\BufferStream.h">
+      <Filter>third_party\muduo\muduo\net\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\muduo\net\protobuf\ProtobufCodecLite.h">
+      <Filter>third_party\muduo\muduo\net\protobuf</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\muduo\net\protorpc\google-inl.h">
+      <Filter>third_party\muduo\muduo\net\protorpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\muduo\net\protorpc\RpcChannel.h">
+      <Filter>third_party\muduo\muduo\net\protorpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\muduo\net\protorpc\RpcCodec.h">
+      <Filter>third_party\muduo\muduo\net\protorpc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\muduo\muduo\net\protorpc\RpcServer.h">
+      <Filter>third_party\muduo\muduo\net\protorpc</Filter>
+    </ClInclude>
+    <ClCompile Include="..\cppmysql\Connection.cc">
+      <Filter>cppmysql</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cppmysql\ConnectionPool.cc">
+      <Filter>cppmysql</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cppmysql\ConnectionPoolMgr.cc">
+      <Filter>cppmysql</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cppmysql\ConnectionPool_unused.cc">
+      <Filter>cppmysql</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cppmysql\Error.cc">
+      <Filter>cppmysql</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cppmysql\Fields.cc">
+      <Filter>cppmysql</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cppmysql\ResultSet.cc">
+      <Filter>cppmysql</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cppmysql\test.cc">
+      <Filter>cppmysql</Filter>
+    </ClCompile>
+    <ClCompile Include="..\server\Config.cc">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\server\IdCache.cc">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\server\IdServer.cc">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\contrib\hiredis\Hiredis.cc">
+      <Filter>third_party\muduo\contrib\hiredis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\contrib\hiredis\mrediscli.cc">
+      <Filter>third_party\muduo\contrib\hiredis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\contrib\thrift\ThriftConnection.cc">
+      <Filter>third_party\muduo\contrib\thrift</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\contrib\thrift\ThriftServer.cc">
+      <Filter>third_party\muduo\contrib\thrift</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\contrib\thrift\tests\echo\EchoServer.cc">
+      <Filter>third_party\muduo\contrib\thrift\tests\echo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\contrib\thrift\tests\ping\PingServer.cc">
+      <Filter>third_party\muduo\contrib\thrift\tests\ping</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\ace\logging\client.cc">
+      <Filter>third_party\muduo\examples\ace\logging</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\ace\logging\server.cc">
+      <Filter>third_party\muduo\examples\ace\logging</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\ace\ttcp\common.cc">
+      <Filter>third_party\muduo\examples\ace\ttcp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\ace\ttcp\main.cc">
+      <Filter>third_party\muduo\examples\ace\ttcp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\ace\ttcp\ttcp.cc">
+      <Filter>third_party\muduo\examples\ace\ttcp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\ace\ttcp\ttcp_blocking.cc">
+      <Filter>third_party\muduo\examples\ace\ttcp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\asio\chat\client.cc">
+      <Filter>third_party\muduo\examples\asio\chat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\asio\chat\loadtest.cc">
+      <Filter>third_party\muduo\examples\asio\chat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\asio\chat\server.cc">
+      <Filter>third_party\muduo\examples\asio\chat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\asio\chat\server_threaded.cc">
+      <Filter>third_party\muduo\examples\asio\chat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\asio\chat\server_threaded_efficient.cc">
+      <Filter>third_party\muduo\examples\asio\chat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\asio\chat\server_threaded_highperformance.cc">
+      <Filter>third_party\muduo\examples\asio\chat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\asio\tutorial\timer2\timer.cc">
+      <Filter>third_party\muduo\examples\asio\tutorial\timer2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\asio\tutorial\timer3\timer.cc">
+      <Filter>third_party\muduo\examples\asio\tutorial\timer3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\asio\tutorial\timer4\timer.cc">
+      <Filter>third_party\muduo\examples\asio\tutorial\timer4</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\asio\tutorial\timer5\timer.cc">
+      <Filter>third_party\muduo\examples\asio\tutorial\timer5</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\asio\tutorial\timer6\timer.cc">
+      <Filter>third_party\muduo\examples\asio\tutorial\timer6</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\cdns\dns.cc">
+      <Filter>third_party\muduo\examples\cdns</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\cdns\Resolver.cc">
+      <Filter>third_party\muduo\examples\cdns</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\curl\Curl.cc">
+      <Filter>third_party\muduo\examples\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\curl\download.cc">
+      <Filter>third_party\muduo\examples\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\curl\mcurl.cc">
+      <Filter>third_party\muduo\examples\curl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\fastcgi\fastcgi.cc">
+      <Filter>third_party\muduo\examples\fastcgi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\fastcgi\fastcgi_test.cc">
+      <Filter>third_party\muduo\examples\fastcgi</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\filetransfer\download.cc">
+      <Filter>third_party\muduo\examples\filetransfer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\filetransfer\download2.cc">
+      <Filter>third_party\muduo\examples\filetransfer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\filetransfer\download3.cc">
+      <Filter>third_party\muduo\examples\filetransfer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\hub\codec.cc">
+      <Filter>third_party\muduo\examples\hub</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\hub\hub.cc">
+      <Filter>third_party\muduo\examples\hub</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\hub\pub.cc">
+      <Filter>third_party\muduo\examples\hub</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\hub\pubsub.cc">
+      <Filter>third_party\muduo\examples\hub</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\hub\sub.cc">
+      <Filter>third_party\muduo\examples\hub</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\idleconnection\echo.cc">
+      <Filter>third_party\muduo\examples\idleconnection</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\idleconnection\main.cc">
+      <Filter>third_party\muduo\examples\idleconnection</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\idleconnection\sortedlist.cc">
+      <Filter>third_party\muduo\examples\idleconnection</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\maxconnection\echo.cc">
+      <Filter>third_party\muduo\examples\maxconnection</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\maxconnection\main.cc">
+      <Filter>third_party\muduo\examples\maxconnection</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\memcached\client\bench.cc">
+      <Filter>third_party\muduo\examples\memcached\client</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\memcached\server\footprint_test.cc">
+      <Filter>third_party\muduo\examples\memcached\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\memcached\server\Item.cc">
+      <Filter>third_party\muduo\examples\memcached\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\memcached\server\MemcacheServer.cc">
+      <Filter>third_party\muduo\examples\memcached\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\memcached\server\server.cc">
+      <Filter>third_party\muduo\examples\memcached\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\memcached\server\Session.cc">
+      <Filter>third_party\muduo\examples\memcached\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\multiplexer\demux.cc">
+      <Filter>third_party\muduo\examples\multiplexer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\multiplexer\multiplexer.cc">
+      <Filter>third_party\muduo\examples\multiplexer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\multiplexer\multiplexer_simple.cc">
+      <Filter>third_party\muduo\examples\multiplexer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\netty\discard\client.cc">
+      <Filter>third_party\muduo\examples\netty\discard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\netty\discard\server.cc">
+      <Filter>third_party\muduo\examples\netty\discard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\netty\echo\client.cc">
+      <Filter>third_party\muduo\examples\netty\echo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\netty\echo\server.cc">
+      <Filter>third_party\muduo\examples\netty\echo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\netty\echo\server2.cc">
+      <Filter>third_party\muduo\examples\netty\echo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\netty\uptime\uptime.cc">
+      <Filter>third_party\muduo\examples\netty\uptime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\pingpong\bench.cc">
+      <Filter>third_party\muduo\examples\pingpong</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\pingpong\client.cc">
+      <Filter>third_party\muduo\examples\pingpong</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\pingpong\server.cc">
+      <Filter>third_party\muduo\examples\pingpong</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\procmon\dummyload.cc">
+      <Filter>third_party\muduo\examples\procmon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\procmon\plot.cc">
+      <Filter>third_party\muduo\examples\procmon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\procmon\plot_test.cc">
+      <Filter>third_party\muduo\examples\procmon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\procmon\procmon.cc">
+      <Filter>third_party\muduo\examples\procmon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\protobuf\codec\client.cc">
+      <Filter>third_party\muduo\examples\protobuf\codec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\protobuf\codec\codec.cc">
+      <Filter>third_party\muduo\examples\protobuf\codec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\protobuf\codec\codec_test.cc">
+      <Filter>third_party\muduo\examples\protobuf\codec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\protobuf\codec\dispatcher_lite_test.cc">
+      <Filter>third_party\muduo\examples\protobuf\codec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\protobuf\codec\dispatcher_test.cc">
+      <Filter>third_party\muduo\examples\protobuf\codec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\protobuf\codec\server.cc">
+      <Filter>third_party\muduo\examples\protobuf\codec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\protobuf\resolver\client.cc">
+      <Filter>third_party\muduo\examples\protobuf\resolver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\protobuf\resolver\server.cc">
+      <Filter>third_party\muduo\examples\protobuf\resolver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\protobuf\rpc\client.cc">
+      <Filter>third_party\muduo\examples\protobuf\rpc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\protobuf\rpc\server.cc">
+      <Filter>third_party\muduo\examples\protobuf\rpc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\protobuf\rpcbalancer\balancer.cc">
+      <Filter>third_party\muduo\examples\protobuf\rpcbalancer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\protobuf\rpcbalancer\balancer_raw.cc">
+      <Filter>third_party\muduo\examples\protobuf\rpcbalancer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\protobuf\rpcbench\client.cc">
+      <Filter>third_party\muduo\examples\protobuf\rpcbench</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\protobuf\rpcbench\server.cc">
+      <Filter>third_party\muduo\examples\protobuf\rpcbench</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\roundtrip\roundtrip.cc">
+      <Filter>third_party\muduo\examples\roundtrip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\roundtrip\roundtrip_udp.cc">
+      <Filter>third_party\muduo\examples\roundtrip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\shorturl\shorturl.cc">
+      <Filter>third_party\muduo\examples\shorturl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\simple\allinone\allinone.cc">
+      <Filter>third_party\muduo\examples\simple\allinone</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\simple\chargen\chargen.cc">
+      <Filter>third_party\muduo\examples\simple\chargen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\simple\chargen\main.cc">
+      <Filter>third_party\muduo\examples\simple\chargen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\simple\chargenclient\chargenclient.cc">
+      <Filter>third_party\muduo\examples\simple\chargenclient</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\simple\daytime\daytime.cc">
+      <Filter>third_party\muduo\examples\simple\daytime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\simple\daytime\main.cc">
+      <Filter>third_party\muduo\examples\simple\daytime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\simple\discard\discard.cc">
+      <Filter>third_party\muduo\examples\simple\discard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\simple\discard\main.cc">
+      <Filter>third_party\muduo\examples\simple\discard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\simple\echo\echo.cc">
+      <Filter>third_party\muduo\examples\simple\echo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\simple\echo\main.cc">
+      <Filter>third_party\muduo\examples\simple\echo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\simple\time\main.cc">
+      <Filter>third_party\muduo\examples\simple\time</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\simple\time\time.cc">
+      <Filter>third_party\muduo\examples\simple\time</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\simple\timeclient\timeclient.cc">
+      <Filter>third_party\muduo\examples\simple\timeclient</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\socks4a\balancer.cc">
+      <Filter>third_party\muduo\examples\socks4a</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\socks4a\socks4a.cc">
+      <Filter>third_party\muduo\examples\socks4a</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\socks4a\tcprelay.cc">
+      <Filter>third_party\muduo\examples\socks4a</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\sudoku\batch.cc">
+      <Filter>third_party\muduo\examples\sudoku</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\sudoku\loadtest.cc">
+      <Filter>third_party\muduo\examples\sudoku</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\sudoku\pipeline.cc">
+      <Filter>third_party\muduo\examples\sudoku</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\sudoku\server_basic.cc">
+      <Filter>third_party\muduo\examples\sudoku</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\sudoku\server_hybrid.cc">
+      <Filter>third_party\muduo\examples\sudoku</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\sudoku\server_multiloop.cc">
+      <Filter>third_party\muduo\examples\sudoku</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\sudoku\server_prod.cc">
+      <Filter>third_party\muduo\examples\sudoku</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\sudoku\server_threadpool.cc">
+      <Filter>third_party\muduo\examples\sudoku</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\sudoku\stat_unittest.cc">
+      <Filter>third_party\muduo\examples\sudoku</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\sudoku\sudoku.cc">
+      <Filter>third_party\muduo\examples\sudoku</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\twisted\finger\finger01.cc">
+      <Filter>third_party\muduo\examples\twisted\finger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\twisted\finger\finger02.cc">
+      <Filter>third_party\muduo\examples\twisted\finger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\twisted\finger\finger03.cc">
+      <Filter>third_party\muduo\examples\twisted\finger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\twisted\finger\finger04.cc">
+      <Filter>third_party\muduo\examples\twisted\finger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\twisted\finger\finger05.cc">
+      <Filter>third_party\muduo\examples\twisted\finger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\twisted\finger\finger06.cc">
+      <Filter>third_party\muduo\examples\twisted\finger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\twisted\finger\finger07.cc">
+      <Filter>third_party\muduo\examples\twisted\finger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\wordcount\hasher.cc">
+      <Filter>third_party\muduo\examples\wordcount</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\wordcount\receiver.cc">
+      <Filter>third_party\muduo\examples\wordcount</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\zeromq\local_lat.cc">
+      <Filter>third_party\muduo\examples\zeromq</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\examples\zeromq\remote_lat.cc">
+      <Filter>third_party\muduo\examples\zeromq</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\base\AsyncLogging.cc">
+      <Filter>third_party\muduo\muduo\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\base\Condition.cc">
+      <Filter>third_party\muduo\muduo\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\base\CountDownLatch.cc">
+      <Filter>third_party\muduo\muduo\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\base\Date.cc">
+      <Filter>third_party\muduo\muduo\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\base\Exception.cc">
+      <Filter>third_party\muduo\muduo\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\base\FileUtil.cc">
+      <Filter>third_party\muduo\muduo\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\base\LogFile.cc">
+      <Filter>third_party\muduo\muduo\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\base\Logging.cc">
+      <Filter>third_party\muduo\muduo\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\base\LogStream.cc">
+      <Filter>third_party\muduo\muduo\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\base\ProcessInfo.cc">
+      <Filter>third_party\muduo\muduo\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\base\Thread.cc">
+      <Filter>third_party\muduo\muduo\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\base\ThreadPool.cc">
+      <Filter>third_party\muduo\muduo\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\base\Timestamp.cc">
+      <Filter>third_party\muduo\muduo\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\base\TimeZone.cc">
+      <Filter>third_party\muduo\muduo\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\base\tests\AsyncLogging_test.cc">
+      <Filter>third_party\muduo\muduo\base\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\base\tests\Atomic_unittest.cc">
+      <Filter>third_party\muduo\muduo\base\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\base\tests\BlockingQueue_bench.cc">
+      <Filter>third_party\muduo\muduo\base\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\base\tests\BlockingQueue_test.cc">
+      <Filter>third_party\muduo\muduo\base\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\base\tests\BoundedBlockingQueue_test.cc">
+      <Filter>third_party\muduo\muduo\base\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\base\tests\Date_unittest.cc">
+      <Filter>third_party\muduo\muduo\base\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\base\tests\Exception_test.cc">
+      <Filter>third_party\muduo\muduo\base\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\base\tests\FileUtil_test.cc">
+      <Filter>third_party\muduo\muduo\base\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\base\tests\Fork_test.cc">
+      <Filter>third_party\muduo\muduo\base\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\base\tests\GzipFile_test.cc">
+      <Filter>third_party\muduo\muduo\base\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\base\tests\LogFile_test.cc">
+      <Filter>third_party\muduo\muduo\base\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\base\tests\Logging_test.cc">
+      <Filter>third_party\muduo\muduo\base\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\base\tests\LogStream_bench.cc">
+      <Filter>third_party\muduo\muduo\base\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\base\tests\LogStream_test.cc">
+      <Filter>third_party\muduo\muduo\base\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\base\tests\Mutex_test.cc">
+      <Filter>third_party\muduo\muduo\base\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\base\tests\ProcessInfo_test.cc">
+      <Filter>third_party\muduo\muduo\base\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\base\tests\SingletonThreadLocal_test.cc">
+      <Filter>third_party\muduo\muduo\base\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\base\tests\Singleton_test.cc">
+      <Filter>third_party\muduo\muduo\base\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\base\tests\ThreadLocalSingleton_test.cc">
+      <Filter>third_party\muduo\muduo\base\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\base\tests\ThreadLocal_test.cc">
+      <Filter>third_party\muduo\muduo\base\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\base\tests\ThreadPool_test.cc">
+      <Filter>third_party\muduo\muduo\base\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\base\tests\Thread_bench.cc">
+      <Filter>third_party\muduo\muduo\base\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\base\tests\Thread_test.cc">
+      <Filter>third_party\muduo\muduo\base\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\base\tests\Timestamp_unittest.cc">
+      <Filter>third_party\muduo\muduo\base\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\base\tests\TimeZone_unittest.cc">
+      <Filter>third_party\muduo\muduo\base\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\net\Acceptor.cc">
+      <Filter>third_party\muduo\muduo\net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\net\boilerplate.cc">
+      <Filter>third_party\muduo\muduo\net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\net\Buffer.cc">
+      <Filter>third_party\muduo\muduo\net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\net\Channel.cc">
+      <Filter>third_party\muduo\muduo\net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\net\Connector.cc">
+      <Filter>third_party\muduo\muduo\net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\net\EventLoop.cc">
+      <Filter>third_party\muduo\muduo\net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\net\EventLoopThread.cc">
+      <Filter>third_party\muduo\muduo\net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\net\EventLoopThreadPool.cc">
+      <Filter>third_party\muduo\muduo\net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\net\InetAddress.cc">
+      <Filter>third_party\muduo\muduo\net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\net\Poller.cc">
+      <Filter>third_party\muduo\muduo\net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\net\Socket.cc">
+      <Filter>third_party\muduo\muduo\net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\net\SocketsOps.cc">
+      <Filter>third_party\muduo\muduo\net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\net\TcpClient.cc">
+      <Filter>third_party\muduo\muduo\net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\net\TcpConnection.cc">
+      <Filter>third_party\muduo\muduo\net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\net\TcpServer.cc">
+      <Filter>third_party\muduo\muduo\net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\net\Timer.cc">
+      <Filter>third_party\muduo\muduo\net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\net\TimerQueue.cc">
+      <Filter>third_party\muduo\muduo\net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\net\http\HttpContext.cc">
+      <Filter>third_party\muduo\muduo\net\http</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\net\http\HttpResponse.cc">
+      <Filter>third_party\muduo\muduo\net\http</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\net\http\HttpServer.cc">
+      <Filter>third_party\muduo\muduo\net\http</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\net\http\tests\HttpRequest_unittest.cc">
+      <Filter>third_party\muduo\muduo\net\http\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\net\http\tests\HttpServer_test.cc">
+      <Filter>third_party\muduo\muduo\net\http\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\net\inspect\Inspector.cc">
+      <Filter>third_party\muduo\muduo\net\inspect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\net\inspect\PerformanceInspector.cc">
+      <Filter>third_party\muduo\muduo\net\inspect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\net\inspect\ProcessInspector.cc">
+      <Filter>third_party\muduo\muduo\net\inspect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\net\inspect\SystemInspector.cc">
+      <Filter>third_party\muduo\muduo\net\inspect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\net\inspect\tests\Inspector_test.cc">
+      <Filter>third_party\muduo\muduo\net\inspect\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\net\poller\DefaultPoller.cc">
+      <Filter>third_party\muduo\muduo\net\poller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\net\poller\EPollPoller.cc">
+      <Filter>third_party\muduo\muduo\net\poller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\net\poller\PollPoller.cc">
+      <Filter>third_party\muduo\muduo\net\poller</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\net\protobuf\ProtobufCodecLite.cc">
+      <Filter>third_party\muduo\muduo\net\protobuf</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\net\protorpc\RpcChannel.cc">
+      <Filter>third_party\muduo\muduo\net\protorpc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\net\protorpc\RpcCodec.cc">
+      <Filter>third_party\muduo\muduo\net\protorpc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\net\protorpc\RpcCodec_test.cc">
+      <Filter>third_party\muduo\muduo\net\protorpc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\net\protorpc\RpcServer.cc">
+      <Filter>third_party\muduo\muduo\net\protorpc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\net\tests\Buffer_unittest.cc">
+      <Filter>third_party\muduo\muduo\net\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\net\tests\Channel_test.cc">
+      <Filter>third_party\muduo\muduo\net\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\net\tests\EchoClient_unittest.cc">
+      <Filter>third_party\muduo\muduo\net\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\net\tests\EchoServer_unittest.cc">
+      <Filter>third_party\muduo\muduo\net\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\net\tests\EventLoopThreadPool_unittest.cc">
+      <Filter>third_party\muduo\muduo\net\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\net\tests\EventLoopThread_unittest.cc">
+      <Filter>third_party\muduo\muduo\net\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\net\tests\EventLoop_unittest.cc">
+      <Filter>third_party\muduo\muduo\net\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\net\tests\InetAddress_unittest.cc">
+      <Filter>third_party\muduo\muduo\net\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\net\tests\TcpClient_reg1.cc">
+      <Filter>third_party\muduo\muduo\net\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\net\tests\TcpClient_reg2.cc">
+      <Filter>third_party\muduo\muduo\net\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\net\tests\TcpClient_reg3.cc">
+      <Filter>third_party\muduo\muduo\net\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\net\tests\TimerQueue_unittest.cc">
+      <Filter>third_party\muduo\muduo\net\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\muduo\muduo\net\tests\ZlibStream_unittest.cc">
+      <Filter>third_party\muduo\muduo\net\tests</Filter>
+    </ClCompile>
+    <Text Include="..\cppmysql\Makefile.mk">
+      <Filter>cppmysql</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\server\Types.h">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\server\ThreadObject.h">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\server\Daemon.h">
+      <Filter>server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\api\c++\BlockTcpClient.h">
+      <Filter>api\c++</Filter>
+    </ClInclude>
+    <ClInclude Include="..\api\c++\IdServer.h">
+      <Filter>api\c++</Filter>
+    </ClInclude>
+    <ClInclude Include="..\api\c++\IdServerImp.h">
+      <Filter>api\c++</Filter>
+    </ClInclude>
+    <ClInclude Include="..\api\c++\ThreadObject.h">
+      <Filter>api\c++</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\server\main.cc">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\server\Daemon.cc">
+      <Filter>server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\api\c++\BlockTcpClient.cc">
+      <Filter>api\c++</Filter>
+    </ClCompile>
+    <ClCompile Include="..\api\c++\IdServer.cc">
+      <Filter>api\c++</Filter>
+    </ClCompile>
+    <ClCompile Include="..\api\c++\test.cc">
+      <Filter>api\c++</Filter>
+    </ClCompile>
+    <ClCompile Include="..\api\c++\IdServerImp.cc">
+      <Filter>api\c++</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\server\Makefile.mk">
+      <Filter>server</Filter>
+    </None>
+    <None Include="..\build.sh" />
+    <None Include="..\server\idserver.cnf.example">
+      <Filter>server</Filter>
+    </None>
+    <None Include="..\api\c++\Makefile.mk">
+      <Filter>api\c++</Filter>
+    </None>
+  </ItemGroup>
+</Project>
